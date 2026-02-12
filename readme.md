@@ -24,28 +24,33 @@ NanduBot is a dual-layered AI assistant built to run on entry-level hardware. It
 
 Setup Virtual Environment:
 
-Bash
+``` Bash
 python3 -m venv aivenv
 source aivenv/bin/activate
 Install Dependencies:
-
-Bash
+```
+``` Bash
 ./aivenv/bin/python3 -m pip install torch numpy nltk ddgs
+```
 Download NLTK Data:
 
-Bash
+```Bash
 ./aivenv/bin/python3 -m nltk.downloader punkt_tab
+```
+
 🎮 How to Use
 1. Training
 If you modify intents.json, you must re-train the local brain:
 
-Bash
+```Bash
 ./aivenv/bin/python3 train.py
+```
 2. Chatting
 Start the bot and talk to it in the terminal:
 
-Bash
+```Bash
 ./aivenv/bin/python3 chat.py
+```
 📂 Project Structure
 train.py: The script that builds the model using the GTX 1630.
 
