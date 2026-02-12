@@ -9,8 +9,6 @@ NanduBot is a dual-layered AI assistant built to run on entry-level hardware. It
 - **Optimized for Budget PCs:** Specifically designed to run smoothly on older CPUs (Intel 3rd Gen).
 
 ## 🛠️ Hardware Requirements
-- **CPU:** Intel i5-3rd Gen (or equivalent)
-- **GPU:** NVIDIA GeForce GTX 1630 (4GB VRAM)
 - **RAM:** 12GB+ recommended
 - **OS:** Ubuntu / Linux
 
